@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h1>
+        Регистрация
+    </h1>
+    <form>
+        <Label>
+            <p>Имя:</p>
+            <input type="text"name="Name"pflaceholder="Имя" required>
+        </Label>
+
+        <label>
+            <p>Фамилия:</p>
+        <input type="text"name="last_name"pflaceholder="Фамилия"required>
+        </label>
+
+       <label>
+        <p>Электронная почта:</p>
+        <input type="email"name="e-mail"pflaceholder="email"required>
+       </label>
+    
+       <Label>
+        <p>Пароль:</p>
+        <input type="password"name="password"pflaceholder="password"required>
+       </Label>
+
+       <label>
+        <p>Пол:</p>
+       <select name="gender"required>
+           <option value="m">Мужской</option>
+           <option value="w">Женский</option>
+           <option value="a">Другой</option>
+       </select>
+       </label>
+
+       <label>
+        <p>Дата рождения:</p>
+        <label>
+            <p>день:</p>
+            <input type="number" min="1" max="31"name="data"pflaceholder="data"required>
+        </label>
+        <label>
+            <p>месяц:</p>
+           <select name="month"required>
+           <option value="1">Январь</option>
+           <option value="2">Февраль</option>
+           <option value="3">Март</option>
+           <option value="4">Апрель</option>
+           <option value="5">Май</option>
+           <option value="6">Июнь</option>
+           <option value="7">Июль</option>
+           <option value="8">Август</option>
+           <option value="9">Сентябрь</option>
+           <option value="10">Октябрь</option>
+           <option value="11">Ноябрь</option>
+           <option value="12">Декабрь</option>
+       </select>
+        </label>
+        <label>
+            <p>год:</p>
+            <input type="number" min="1884" max="2024"name="data"pflaceholder="data"required>
+        </label>
+       </label>
+      <label>
+        <p>Подтвердите:</p>
+        <input checked type="checkbox" value="1" name="chois">
+      </label>
+      <label>
+          <button>Отправить.</button>
+      </label>
+    </form>
+</body>
+</html>
